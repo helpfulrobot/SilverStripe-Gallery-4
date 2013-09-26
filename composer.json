@@ -12,7 +12,7 @@
 		}
 	],
 	"require": {
-	    "jonshutt/SilverStripe-SortableGalleryField": "master"
+	    "jonshutt/SilverStripe-SortableGalleryField": "master",
 		"silverstripe/cms": "~3.0"
 	}
 	
