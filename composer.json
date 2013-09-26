@@ -1,0 +1,19 @@
+{
+	"name": "jonshutt/silverstripe-gallery",
+	"type": "silverstripe-module",
+	"description": "Simple Silverstripe 3 gallery with - easy to upload multiple images, and drag and drop the order",
+	"keywords": ["gallery", "bulk-upload", "upload", "sortable", "orderable", "responsive"],
+	"license": "BSD-3-Clause",
+	"authors":[
+		{
+			"name": "Jon Shutt",			
+			"email" : "sales@futureweb.co.nz",
+			"role" : "developer"
+		}
+	],
+	"require": {
+	    "jonshutt/SilverStripe-SortableGalleryField": "master"
+		"silverstripe/cms": "~3.0"
+	}
+	
+}
