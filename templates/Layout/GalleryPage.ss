@@ -1,4 +1,3 @@
-
     
     	<div class="typography">
         
@@ -9,8 +8,8 @@
            <div id="galleryArea">
            <% loop getGalleryImages %>
            <div class="galleryItem">
-           		<% control $SetRatioSize(800,600) %>
-                <a class="galleryItemLink" href="$URL" rel="$Width"><% end_control %>
+           		<% loop $SetRatioSize(800,600) %>
+                <a class="galleryItemLink" href="$URL" rel="$Width"><% end_loop %>
                 <div class="imgTitle">$Title</div>
                 <div class="imgCaption">$Caption</div>
             	$CroppedImage(150,150)
